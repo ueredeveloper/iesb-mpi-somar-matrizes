@@ -7,7 +7,7 @@ instalar mpi
 sudo apt-get install libmpich-dev
 
 gerar main.e de saida
-mpicc main.c -o main.e
+mpicc main.c -o main.e  => !mpicc 
 
 executar (n -> numero de processos)
 mpirun -n 5 main.e
@@ -26,7 +26,7 @@ that could not be found:
 Please either unset the parameter, or check that the path is correct
 ```
 
-Adicionando este comando é possível excutar:<br>
+Adicionando este comando é possível executar:<br>
 [export OMPI_MCA_plm_rsh_agent=](https://github.com/open-mpi/ompi/issues/7330)
 ```
 export OMPI_MCA_plm_rsh_agent=
