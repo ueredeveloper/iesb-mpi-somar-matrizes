@@ -1,4 +1,7 @@
-mpirun# Atividade IESB
+# Atividade - MPI - IESB
+
+Youtube
+[Sistemas Distribuidos MPI](https://www.youtube.com/watch?v=yqPN9Fb57Ho)
 
 Comandos
 
@@ -26,8 +29,7 @@ that could not be found:
 Please either unset the parameter, or check that the path is correct
 ```
 
-Adicionando este comando é possível executar:<br>
-[export OMPI_MCA_plm_rsh_agent=](https://github.com/open-mpi/ompi/issues/7330)
+Adicionando este comando é possível executar: [export OMPI_MCA_plm_rsh_agent=](https://github.com/open-mpi/ompi/issues/7330) <br>
 ```
 export OMPI_MCA_plm_rsh_agent=
 
