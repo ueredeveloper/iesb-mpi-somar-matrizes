@@ -13,7 +13,7 @@ gerar main.e de saida
 mpicc main.c -o main.e  => !mpicc 
 
 executar (n -> numero de processos)
-mpirun -n 5 main.e
+mpirun -n 0 main.e
 
 ````
 Help
@@ -34,3 +34,7 @@ Adicionando este comando é possível executar: [export OMPI_MCA_plm_rsh_agent=]
 export OMPI_MCA_plm_rsh_agent=
 
 ```
+
+
+
+
